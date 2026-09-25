@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#15120f">
+  <meta name="description" content="Agendamento online da Barbearia Emanuel Sousa — estilo, precisão e confiança.">
+  <title>Barbearia Emanuel Sousa — Agendamento</title>
+  <style>
+    :root{
+      --ink:#202326;--coal:#2c3034;--paper:#f4f3ef;--paper-2:#e2e4e5;
+      --copper:#cf272b;--copper-2:#ee4b48;--sage:#2458a6;--white:#ffffff;
+      --line:rgba(32,35,38,.14);--muted:#687078;--success:#316d51;--danger:#b52d32;
+      --shadow:0 24px 70px rgba(25,30,36,.18);--radius:22px;
+      --logo-image:url("data:image/webp;base64,UklGRig0AABXRUJQVlA4IBw0AABw/gCdASpoAWgBPnk2lkekoyIhKFM8sJAPCWluvcDPKZLdvgPlPN3q79y/C3O2nI7UvKvUM8SD9L+tN5jt0J/mfU3c/B7NP7GeiBqgfrT/M+ijyp/Wf4Tx/8wfxL+E/dT2bM6fbTqTfN/yZ/V/xftJ/ufCH50ahf5j/VP93wK9vPQa8Iedj9/52/v/+u9gX9feNB9j9gj+sf7z1g/93zD/ZfsOnKTujra3zqc28VJAD3qKBfbHvS/K6tWT67qYkPtFDG7LSvdU8EYCXaL0EL+MzVEh3ox0//HRn//9enxPlEql58r9IH8gsfv/44DfWAN0o8lb5QNNBASfiCU1YDjqlfVvu0uW8IVKS/t2I1tpt/x6y4+M5lRZNwsQGfbOUij8bbC//KnaFU/GGUhQqBzk+8PAtR5guLONqdw+2eOaAQiCrGMhcBNxC3YkN95oXU+1p6+N96cMTvuCVfHn+KvbQSPo4NRAOuQSUxg8YBDZZ9jTsqo2GsFKgn6SdQryBlPU5sI1eVOmPiNWH1JMYojiV7GWL4Ilx/BwnFodkldzStkyZCAArBvtqBoLI3+DvZj3Ni/duyHJWbIWbCGebZyBLzbuA/ruhiZoDBJdcHlaOr04tmAN3xq3yjDELtzs1BR7CFRhqirLybhVKdhxHIRQxDkV6z+2n3lHosMIoOmp2KLK+3lR8tQj3c6DYz4WJoo0kI21ciqabXmuPmspaGStSD6hBcbDLX4GeazLKlHczV6MaxUe9omaStK7tCNH1+PXnJbc0ky6S2AfmJKZqr9wiclU+nKM1cwdcL+NgSz2L58OP0kYHv0/36BtsAsHmKpuOaHiv2Xt5RmVKMN//0dMGS2nIPp6U60vArH4bjsCT85Q2vnna50yB/69PnH04y5FXn/OPRFf9puQIq4gZht97sHcivj/2srhRuzD5im0oB20DKhXbukPmYsh3DHpr27rPmYwQ4293x+RTzru7dRTwL9mIY9kWWltob8kEzZQnLkaNByZGQ5CRlOgeUwLzKC2MV59dBtkH0aT3suYifIblp1ae1tA+qRsLtgb2qki2Uba/0bPaAhAV7mL1XsKhq6GUvPDDXqYEe2bn2lfzc14TkhLXI454qCtlFByEGWOIu9Vda1Cnr4Sal7w4gF5Dle5GO0H/EJGJWNh/C6PDRhtRZ+alfI/LWOXREcd6q0wynqeCWf9u+xk0ER3ODbmw5A6VBD33R4fc/y9Pdid+zvLvcnSJgbxa7iLzlpOHC4WQhaNLcivEnJa23Gc5csWxBNgRE+QwBQKIS5IN6DEEmiiYXCXwdS7oDemwVFmMrQmizfKPogwPQZsGTGmgmqycVjAnMw+zHg4H4jsH4dL0LS5q42wGpQr8XvR9Uy9tCquO95YPq7p35F5k+0Uw5nSJVn/NhZmppDT5L9iDX5jOhLkvH+mwonM7A4G/A3iEPpGCEEQribalwA5oncYGAI2gEcrqi/eZFmXENaNlRIzjrTJ6DfG5T/1orKf+z7wO+UWSHckfvr9dVOX/VO6WK4vW5ujGtg0CmDUJ4rx0JOW6sWDgRjYQ0Z4fzaaBc/uk21aE4omBQsc1bCMW+SQNAE46Yenn32gWoXWag49eE4g0Q9x3HB+liUPwc5enWND0pEYTuWanN4q7P+aU9wNIfPwyxSwyP681UWSFh8HS+U9hmNF+uvxyEirII8EXEQdMth+7wY0Qpk0gTzYTM6qeYhOSQ9cNUTuduxYCX97Me8COEB2MULIao+gXOAuFWgjp2mdCpotx70cC8i8cfk2Edq/hN0JioJloymoL73+Nq/iYGb5zZfvMti4AGXyixenJRv/TENWL8eQneS8Wz5jSMboavGsLNpI75m/lMFk5wMB1mFAE+EXtnLFhhRjz4TYpcITI5oA+WOxWXGU8n00wqdjcanEwUzrk42T6hlNrC8Be0YCot9PXmXzdVX+PRQNURMI5Mjzm8M8ca0+cCz8ft3c6aNFNPCV5MKrJy3Eb0cIjIM8vS/edyGff5g78LHpNL2hM83LPgo3r6mTn+X9A6No7677AUQZCteTgQ8vJPCW6HGnhMqLQMBlagW8m5Au9p18sePhcSbKf6Na8+IWvNsg02bCoYI8OgBtdEZAQWbWoh/etArZXoyEVRANYZ8b3V6gJxwnP5K+f9BvzjOWagszrX2ps0LvXLalyt7Gn8Iy9MXYyM0nkpEEZRDqE/9xV6OKGiXl1dDWCq2BLaMmX56AvrXIyEm6rAGN2t97epwb6Hbn2C//+qPlvFlxjS/f3VPyi4fgjwBAN4mdwUQaDr8xO0hsFJxa9b9HDSKne3U1DWxEJFMVdhwqgju/AR+wXKCDJ4zPpZEtmSFm89saf3CH5/28t0ZFVSOP9/dnM+IoN3VLlRVMGlznaHKul5NgkhIAB1kaWp16c3NwrYbbY3mejbjJmAUrU3MTzsC6XdyeUkykGugCIovmNoYBOMuwixC7mUCCZdQHdtLOs6pIEHPzdHsvVKhkATfVCasqZ/8+GSpJfFmq2rF2fsLpBsPJLBrEUoe/rq7qxRCv9/pSNd7uxIW0p42y2DkmRjRb+4lxowbhfbeyP42zu+6rI57v//bxQc7+Ej0qMOYn//GsrB7tQRzl2vuf6JmM1YJ7Jq0xmajIzXXeuw0hvNIM9L7TwbuMi0wL6ooFLZLT/UnrIulTZ3dcdrZ42Er272e1/5tq4npHazeUtGE1s8FhftQAAP7VATz7f1LgGGEBAf5C/hNI9QUx0ksutovCIbdBz8ADKTPqhBLXA8wFBb/IBI/uUFydagAUE+T5rU/DZ9wXIvRK8e2DBF37TUq1ZUM1xohq6Buun1CVeVGKJL3vUrixVTK3l31RyvO49p/azqLZNDlzHyCd070oh7PaRs0s9ciI/FTqqG5wPmZvheMeDSYYIHK7uz5AazMZXxMkoWLgQw0uShCgXKcXMBVI4zg1KEPZ/+RldxxhzBVPCgBOj/BnfV7yRfhHFGdzDTjIW6NV7xY1riri4f3gZ8dIqqJEKymShpwHRfwsi9h+RxiSv05BrnHb44i7fpdRrXFljFO1Btml0ZM+wtCDxhn9OpOakTRIjS9Rrdn0PwRGhFgh3HhsGajmoxHn4bqVHpvnl6+4etO/GJSInufAd181rNtWYLK3P4Oq7Ge3Eiv93kg0/6Zcxn9pA2erzyW6AslE95NEmgh7gsmSTesuh9Ll6U2rcz4m0bFaO0t7eJfEx4odXrc/i0PqngHEaSs0TJx8g6EAAr3baXv3Lf07AG3j9PSUrm3Hp4UBeCEZx+zqf9TwlmMB7SdhVBEA9mHp9pWqeSAJf4sWcZgU0Dy0LSNU7/mH7sY8CRJxnM5P99u5jDdTDgZIfLp0h2O+vQ/hWxZTG2TeOm4zdf+ZqUtt2WC8NSrVXF+mvoZU0ODC2fyHV0oWSpXY3u6b9DXMj8TtFsL2DL5/lJ26N6Ej+HaI/fsIKq0onY60j9dR+6EI18YJkhe8pm/3BK9wsiAEdlQF7vooWYjIAvCTdJRvXZ04nJb0UpbQjBhTwc5RYf+tBBdftOlWVwH75vsceHUbpTNsIONUDWHzWVydvIFIBScVV3+BuAK0kFF943Ldydo0dtnthWSjd3aM466mr06R7JGdmcf8PJXqr+wYUsId6nvFTwI2ETpjLsIgmNS4UFKeN3qtsDKpRKBanOeAORzdqL4HscCIJT1GvW9OViAIa925ehlzy+AFjTvHc0UMuewS+1hnE5j2/iI3E1yUEtbHi28AUgQEUYCzbCVAmXXnR9OEBB9bcL3SbOlnql5duXuuzGLysnKDc6YJRgh+jXutsXOLLHm+esBG4PF11yaRZkOKvJbgmZ+F5a6T2RgW4aA9y4mBsC0w6Hy6SpZ5ymcST5dNk2IFs+YswjGdMugWwb1pMpQSgSBmPdaUd/GSALbAC9JEAzYxxyHz1yLn2RnXTV/OVPaKsGMWTgKuNJuhJgbYLASXjWJ0kaB9cD0oRdDb5u5k4K3M7DuiDyRh+xVhSeoy3m8vM674Is+Mk3KcnAfyxdLPfXWMWvClX7iEG2Ci82gpWi8eJBph+QjN05TV4g0NoZrvCpj58r7I23gNish4JAgaVnTJ9V3mKT/pirESRG0bnggmzCp5fgWfSXRWTgdqNAf3AtLMIyneIcuphOWu29a3WcFHMBwc0J8BnPNfmifDYGkjA6eAwFIaZN/KMmOoU0pGbUH8FWAcVLVEI7Z+D2u3d4J6NRJ9+pFV+nbR7ngQpKkZVvGx3xMYVKM+2Iitje3GPjwwdJAOQkqMEuQNwCw+4kp8AujFNHbKt9AEqM9vB/exlHLuzRvhmEkZ9NC6lugHT5djObnR9FI8HYMvS0gl3qufDeYBybLGM/1zQBDgFO10bm34hweeG/iCgZHseywFxSnlT5t//WSWbiOVz/OlANQZ0wm8IPeXyptAEOouIqqxJ1/R+QoDG0TzbI6Xhs1UvtvcYoIwROemomS75mlf5sbno1EJDFJXwPOI+2Sltbpz1NaIDvAiXF938buKdTZ8f+NVG9Q7DnGPA7uWYpDcc38UXgWk3IeJu9a7bX1xc4tBudKg+Y0ElOZv+vOY8XLYXAdm37JYL2N/bgPVbh8bHQ8S9Gst8HNBLxQuAeYMIsEhKMAD4JVfbhDHbRxcDdJPFpJrgHp2K6nNjQY0cwKdRUJJxndHLXyXRD5r8FM3okdca7V19TcVEVeLP9+lvyX2c7XoyGEKzC1SP15dVtEuRrbjLYCptS1TRGnXoVxRI3aXjMaDxhajnjWkBS927aNj9/+h0PG1ryRkZ9Z8yf6O9fACcrbyec5Hvk0ZNgB4hnpddE0aPcrjnS1AyX4WOy0ngGKSOfDIGA7L6RKor9c6a6zpf0+x5yP6WxdfSBOxg4gYo1aZTOR6OiQvHwlzJT+GphEkpZSToZWpzEZ+Chun4Q1A5b6OxI6mY+Vm0aMozZdFQ4kC6SoM1avA76LFECLaAmBCnVSmKBliNyVzpyhBOPTQ5D0t7AoJaB8cBP7Il/fefo4bLIzU80ZhgdLH1DmXXk1gP01C16ghbQMCWvqkV2VCl5o2WOc1ccPWB58vbhO9a42DX8j9odtnzyaY7TRkbYB1WQGcKEv+ikhMUjlwTWivSxDZL82rxWppMGiVMq1EJ6uORhUXWkP3pZ8QY7U7oCY3t0A4C9S4cBWYO8kv8Id0rubhuvDtDTB0q0x3d8MRULmHTInJb7sUCTr0548tYm+65URrHrFfx2RiRsSN99uRHA4/yMY0zAU4LunPr87dWDu3svmakX41uDZGoBjzsq+UFh5rlHWsoJ1Q8enHvZ3m/k4MPFH4CthquWIxZoAv6XtLutw/jkD841x8KH3vU+bVxOKp0WJ/i++/0zQ+1qfmHg1UJ1GP8btTGxOWFSB5+vpz93bEEBnhahSoTBHBVxpDO/OEpfIxkhoGWt1UNB2eFPo3PrfZTkst4fFaqNby93/OAPeT25EDf14dxjXUOYGHjxIWa3dr75W3y57Ekz2FrWWfF9b0VH/4/KKkdcCsCdJAhL/nSuZqD77CMfnm/9HeJEof1yQi8sbPsaLQBagzmpgIYm7/rTDCSz3CuiRr9qbxPYxBUK6/gxxpTFKAO8/Q60nhx+zxGS/2KAy19mjz1FMZfRkBXnNfXix5RwnPO3qibVgw6N0VihkTEw466vEjlbiWFB46WXNfYx1ABFm2HU8kaEx13yNqQYK9I0y9G2dfcIzxs3KGVBwAuaVr67grs/yutBui72iy/RDNEdsO00ejPbyF0g5oA2Cg9BBBMqlR64o1pqb4LAVba28G9ABhgGzId2gG7don3tFyxdV8UsbjpiC7wbo9oNefINVeEQVebkIAxZawKTYkqzwVKe5e/kSiMR1jGkX43KxZCyMIxthS0dZym3/AexA5YmGXjGGvgTOpC4xKwfwjgyCYd1JTIEPv4eZFIU2QIIlSa9VcfXA0xyZOaWLA74B5wFddL5RbcGKbnk7bhVvNPoux2iE20JrWmu13rSY36OZzesBqf6pm9Re5+RVyu3iNIxK6TqXXgr2/KT3yQFLOGK+r/npyqktqYzmQPaSXo/s3H9QRj5+OYdAk8SnYJgv2uC/UKsSGEf0w4/9bTZKq07APC+g0+oihtNwaSIYwTtC1YaRSSp+qY+jWzdiLSnaRcgDAblhzPZU0b0RgRRdl1jdL8xLmOWIXzBV2BNJzVnW9rnrgTz9wdOlNVlYxfzsOZO9ASAOBaWTtS8NyBc2QhWjC+eG1ngq97fEdmhB8DXuPMktCX3C+Y+lm4+Ii2ENoTJMOakpg2vexCaDi0PRtWYWR4W+nI+vBiYsC7SbCexsO8kxdfHVRvDS8FwDt/vFiJ7P9U8DLJmMpWEp1HI6WiLj7toB20d3e9o74KajEl7IydLODDxY+QHA37kBRJiUYmqPRRPpQclg9PvnRdF05OTv4mxaSxBxBwqgH9E5OMXt+7LxSPI6Cn69yVi/aoMqXk5Up46TMjjv/Pdt0ms4btDKnm8+ws+2rpqQ4uk5L38u5fP1nG08FCTTQc063pfgGKG+B9CzLNsHFZvfnJsIltb9oAX8gf7VQoqpJWE6SjNBdxAZjfEfKoVbR5A4GB35Uvxh18ktTETERwqzbUb7uqSvZwqThKq9wyT1hJrJdoKVrpmVXlEfmH5WJdZW9MDC5nm4X9RcE7NjAxre6d63l7otTT8PwMIJN2+mMlp4ljDtn/I7ClXaHrmwnL/PjVqK2BnVelttVkgDb3F2MeXliz0ZcnNmhSoLMLydRYTwsrxeUNHVcir3PXKiXT4rX3B28Qgs399olc8cpoXZXoJXgKklDcivfcdIZS5noOcTufyRjdUynZBDqqlDgcN9sZfdwBfL7WaTFafpMlFiocI/lSd6kWGNX6lsbK83Je+Rs80+BEeuN4s9ib4Njvl6y2g/WnJYrIutXVLbfLBpwj8tLmeh2g+Ctj6V28pklYuej9Pr1PJMDhprJ54vKxidmysYrWwiv+t4WJRuWQTfTR19c5+u5+IBqwZFKYymQ/zZ8p7Bq7SPcuG5UaLGogOgPYe8YipDNLtYi1PtW2RTJ+457MWcaNmtPAcU23dNei8EwKZBFZb/nwkX/jRGJ8woFu0lEFyDR3WAkMVdq3+9aOYh0Gm1P/c4VKeEhpq3cbyW/4VB8JSk0xWB2IhgiUszlIpC5X3Kf8jYFD/0NuMt9qp23CQisBBjUlJJXAuDEb0LX8WfTvjPCWY5DrXE/5VgxQoYP3VRxJD97qbEZwjo2YIQctvGzeq3digQsAMkAn4COCnjciHqAS5aOP6uHyT0YuMubVWrqgSyLkI+3VZvPjIsJq4qGSOta8exzqQvtE6k3ruNNRNSF1HiGEBVzCEsUN55YBVEo8LU/9kSXheIbWOuVhTCDGZmkhkjCbc/Uswv22kyZj73hGljtkyfEpA0ZZZz+GRMJP/e086ugz2Qo2PTeMCvna5fT9kZqLCdECuc9n9P+MIXxHjdbnKVLp/bWbd3ufGSqq3XcjKVxfZyLQGZ5rfkl5hEyQNKaS8DX/AA/FtFS1XeEt47HPoQsjxe8H1rgg3s7wvX6Euvf2vORRIj90R7OrABSpBiN3qQnNGh+GZEZZtmITf7RRgpfI/OunHHnKNBfjMnqsw+FWPW/gRqoQxfs5WrHFOtBr7d4mQGwtWJRSDWoZF5KWMrIDgDTsx1KbCFNRG4VVATCRKQYGLWN111Ndn03r7Y/tBZ4ZQRi1WmlYBRbs9BK0mAnoPAjKLU7w+dOQrF6xfmjS+EEfG/no0e3Md7sc/ov9JKfP3qUk5ctd5spU1cyTeDgcurK7fENXGbQnTZMAD1c0w0wO7Nu9zsm/pBZ38InaKdmP0/PuoOEf3jWEwG5fIOjKU87c6sU6J1IVv4+AZr59BxHmypgXblZAiueokumvC+6jPUdx51g2ENEDHxzJSpkV+w+d7/X6g18CHRtxvRD8E3aEE4bWtaLprNX0V1vE9XMf+aipSoJzTAuNTVjBGLB88kpr+RRzK0dWXWaApoNJr3lCi3nH1o5+/9RZMnr0TslIuId8hqRb7m2BJ2v6mc/6YHjik0pBcaY/R0kKkzYvuvRB5oMMNLdbUFBXPH8Eo/lJakyHtNKFxhbyhQyNItHuSywcnke8gKRrVxJmmCkJfqe9hp67myGbRdLKaIR9TSkrN42zMHflGBEC8lD7nsNyCRjdBSBWfW54Tpd9w88zWSdFA/B5h/iXnB6c8o2YdimRF1s/Amabh25iTNppYK4izwqojPbiOWhD5bQZlOFHhh8LBQ1PjO4WavY/9bhDWIdWFAocuFlB13V8b0uIn0pxAB/GCjYayY6Y2rsgnxtOa+ayobXZcWIKot3bN+BYzoybLsjpkv0TCUAusOmvrpFybPn8AEEyyizVExjSwOTuVMIQruqOBxA3ylN6p4JdBPH+kA70JWv6xy5VgpnSSkfGC/J6yZayqoxxYGvY2bWqsk7cB5+SQAPrOmMKqwq9DS8Bu/YlXw+4KsWFxc6i4am9kqWsAHhLF/bKgBEA11IcniEh5KjV4+98uEqL2X2Ss/YO47QUUOfUkpcikt0ugU9Kqnh5S3YWLwuRcyh2s65OTiCrMd/dUDc7uVwapdOiS3MT1BlF/Y8sL0azbaRNQN2fEdDBfvpVJHmfN8YHidw+2GSg/Szesk9gO/j9YbPqnIAuu1qDxaujTIKdl+DRX0xMmEcv6Esd2ddD3qmd1A9E+Gz75M5/mo0il/gRQyYw++IPGeZuGbj3TGF48es6glUdqZOVc92aUrSSmgsTJWjATAjlX96dOeVZKrn0sd4e1u1e/ci7KNgX6FIpYC4db4ue3M93J6PsydulnEifBfT3C7z/5vs3Zh3V/p20EApNPe6DGWIiPksUkQZc4O24OZeeHTHr0AcnpmhTWew96Zvl54tiqUrM3OKnUw2xDkl8bmsYHfhs7N8upwxKy9G93lxlgjufxlj1JS39ThzUOObHuF/repyFiXuIwtg9qRDe4FE/ARku1OkLo4K53pKNbehNMmqGQLdUJwp0Gl8TqrZydglN2qe85R2KJgMVdFUqse6/4tj1ar9c6DwRvAvfKyx1qWlO0ZzvHkIVP61UmfLmaNRpiJuK2JO7KcSI/hksbT9vMjeLKJRx6E4VTGESIGxCyxs98b32Hi8+STtswrMOFZU/htL76ilIc5hAL8FXQHczhAoTJ0RIO02b5WErAGRl1D+3owPaRkILCcH1fVA3p6JL00hzJlKu1a1huo4EEovK6S3O/hDt5htIrPMGiT1TTh/TkkV3ad7VIE1llJ5LyOx2+rrCnFDPV/CxYwcFnuRtjLUNeiHEdc3Z813WyZyDIJTp+V46GlfpvhsuBiemmXGegWXI5kNYcxgl2k4famrt6/ZuRqFMTbOnNbf0p5USZwti6XdIZ2FzPRAZOL8AU5PgDL3wFTm+IMSavmUbaTBwx5xhwZhZu263cTnOT7iZuXy4fE8LRkRokWjrx47ITVr+qjCyxYcBK39FYtJXsX7D3iGYg+CH7hEyAxLuf69jl1aJqa9qY/lhe+EvWuAQApZ+kuOj2ucbeIuO0fomJHntYhloyzV3/yH7NAtWrCxQm4VcMd5vqd6g+xS+BhcM0zrN4llhDkWij5+bnDICR5XMJuHuh9N+GR+zmMKxHfn+gAlxa/wnlE7C/lgx6aRxbOsy66yk+t6QEH5ZdOpELEU8bUsEb4HZkjv8akcFV8FQX/uRGoNBXWmKnyqGi9CvZyTJED3o599pI/HNF05iN3syjhXPxX/mHkwTo6UqvgZJWv8e0tl2TLk7jUfePMRxAcJoVfIOG4l/4e8gX/lkpeK4pnNMTXN3NTbkJKB6MbVCoQ0xM9nUbDy88GGpVs0f/upStPnsovtqUX0MHj5u/6gPj5+35RadQKyXXF+1Z3DvglwhByh6S4lidMHdyoM8YxuQJpafeL2HnYrUJlGVLzfwnWhSN84PZxkQMD4dxe+RvJNdqqQ7NSlviLTc6xZkDmYJheh+9SW6U1zyizdcz7EYuP6tKVUoEO8lkkD/s81Epts5WzpkekLHjg5b+Dp7GYW6jC/FwJuifB5UpLqlbZJhJAfzNG3UJto5ci+8ooD231N4bK15+6HlEL8HVclkTVjIeSvl9orFAFH60x5ztMJ2dvwEpXqjIbHptsnOBCRqAzAfIMRmM/iPNSC1RGnCG4S6gvfFUP0ZTs8o8sXcZxWs+SBlRXIWMSXAjuNn1RKIqoM3w3cRtdbj8SPY1RrYrkvXKu0T250TgsRgyU5AKjp1yq7veiKLqli6HhfL/WJDhpKuvjVA2OL0JLVpA7RQCzg46AlNvQjQptaqoWTQH8rGmX4xVhltkrVuT0V1LML41wesWhUDcarQaJ37xlxsDNeUBNKaybbKhwD441j6c6cmVrzY4yt3bc3x8w0n4M4ozlVoti805juVf7DPvL2JI+EXwVyq6A/GvFEj4x+7elV9v6TmBEIv/OGtum5NbJgLq2IpNPPfOL84InaRjT3oKTOpwSYLixgUdEzxwQD5b2aXtnhfmZqJswsPCl9k8i6zTmw4uPVOYhPQ7C/x0ww75SEBgqBRCZf1d/Ka7Pi8oQK7NmozKpDkk6nrljcnQqgOBr2HCXwODMSQS7vPvnym2+5bXMVzItVtulMzCsuVtKmPm+UwmRRmXZ3ZvvHsO5ByNk2smcjFSZIAmeiVijuyc9AFETw9ioUHr1+38K4Fj/Iv1LUThk8hkOpMA6n/TUxK+Dnmp5wRrkm7xFXxmXUp8liEExHNupAYPM3pw6C/r8ueYu646tFjYGUtlf2ekiaPxprVkxgPYGNaNdUgzxaGKo3P+pgg97W5XN+IF5+nR/y7LHEBcY2sRolR5xV9X1dbr9HuhcbR3FFStKgpW2JPiB6fCMKyKh84c178833pumCl+95cXJeLwblMurJ9jIORy3xa4IsNlOpMI0BUCdGMlmjlTHC8xuW6EWQ24UjPvI/tkgrtj3KUX7wVTbxpTWdNjZvIB2dz8EpTTD3w1ReBzfdDqcIntPmDk/YrhtjWdVngf0EedJFjE4NUoNnciQJe0oJlmFpLbbaZdk14JrNKDc45+EJnyeQLOCmo1m3A9HPIGoBDYpbjNjBkar+rJmu5ijFfU4S8g8HhHgurRkGXnlPBhA5I5vG+sIDVcfJoQziUUJ4PBEUT0w2eIUohMPCMTk8QxvXF5BX3pHzw7+smhuD1FOHORIewrGjwvyIXxfQMTWncvWbR6g6iVoEo3z7pYJgU7ibq3WNb3MZ6xI68C7v0gnCjQ6aI+sG54Ao/u+T2JWvTsAFunjcPaGwhJ/bbDYZ76auY0oU9r/HLpOv2EBykyPw4CLofmvaVwP3wKAVQjIYA+CsfkhBJvAlc0gM245enDRuN8eHBYSjWHf9DlEMb4WS4T6ZuRMsWRX+PuFKQjkmyZPHJmi3HOFP5UkqNE71dlf14qBxQHIZ9LMwdKd+y5ekgAQzAJ/VKcyX5cUKRKJiWz+qUw1TWcykjgUnCqtacJIPAvav4rxullAufg6LVOa3B/oyYqI0kapgXY0OIqeCmfbHat88U1sLTfI1HdUmlZPsRUq+P6Uqn3yGP/fVFQfHBI56jUKkAJa+89shVHMYGEFytUpXc7+ESG0aI7xNcn01blWYrauvXT2w/x/KdbarC5mQhTXoxm3z3PPzmYQZtCWpwSJFLfSDwbBtOswiXIz/HiiGGAW/qzuR2t8TXkt/rEUlZvCTQSMUDOjFO30xD9OP5TqJb+CvV/BSmi4wKddG7fxAv+pvs/cGhOA+0j9KIK+xJ9I8K7/xAQ2CKfKentcZMqyOpZgvQnfgdKxeYS0TojlU49xOz98VW3yF/S0tb3ZVgE3ipdRY64qqxEiYq571PNBGprZXb6J5o65X3gwGWZlL93MKuUOQaz33XuJS+KH+WAiZGo76d/550TMVxwdkM5hBohCrNmWIzwMc2L8l/k/3XzKKQ+Ez9ycpMJ7ll84guraQ2dJ+PABfp4Vw9f3GAZdJ1Xt+GHegW2LRjzjU2gVPCkG3NU5f1FyttslwXkKZLv4nhubIfr8LJMX1PnFhUODLuho0UHeyGRXEeteaNlrNi2/19yCgGhtwIYvilaDjFCM6gSOl917waHHOs7ZQ7tOXN9iVgzCU1XPYXHSAwBaCE0Nco/fFNDuwgvVi7Oh+YAxZFciudM+2b6l2OouHIzRHKBUGuTMPnkjFsOXIvOETBo1anMUKDaboQro21JeK8X+Dsg/1gPIkBG6jXgK9pE06Hv8g3uY7Rrz6w7qMEZHTCCpQMxJkZy74YmTDUyBoDl544uHawRLlN+zZ9G2hvAtADn+zUhZWGMPzPZWjVH/eN+apXALCv1ceUn/OOm8ZRd8UY5Cikijqiapdlt/R0UudfTiNhMjIyJAqa6rKLw9+icjOJMkN3HtxBvWOH7A59xlVm6zJ9aPqxrsGPsDRvUKOEmHEz/8hGTc6QZJdfaeqpKVCLrd6tEqZcUfToAa4IS3zV67tt6lR51pC+rt5qtyAP+NpcUUQP/E4gtxQ0wYt4Z/ikPlqNK6vGuI5IT1fBCUnqg+GgxoOGdMPoqkvs05jYuDgVS6IqQJgvKHjV4saMIXoqm3TXKesTEQKHZqRf/GisEzrKPc3TY/ukSTMG80mySzsntxv6DbS+f0481xoA970J0hXbpNNpMmzRPS9CgtGTx2FrFTfzXSWVKB6mqOLW6CZ0x0E8UJm4tQEKdsyAl9P4ZK/hlUyS2lBuUA4E8z+3J5DcCfBg2FMSDx2L5FQJjsa6s8UOZkdUy86BukcJDLBtapJHbc1FoRx3TM4TzX3YthB7k7Dx1/b7lj4apVP5tTVQ/6jdB2okVPHzVNf9Qy4WAe55eh411J/nZlVwwzUlrM1fc/DMwqIZdEQtXvLUhOYHPZINF5Y99qh32zGPb1+Hs+lLwHVbFFmrWuQnNnkNLAbVk4d6c5b3F8rBEivJ7axlXUiMt1Gdm9ZvQ0oN5XBzZs8IPo/bRAx6GEy0HzfVqnqzFMpoPJzzbnQYddLoKpuWk6TCgzIR4nt5yPoANG2iUA+3mAIov8g8b3rvOMrkG/Rd7Ij+3IthMlzcA1Nqn9uNDP+eXOoonapBd37P7NFhbnWQfZtPPp0Y6+CB2FRXClPFlO2K3lDNZSAZaX/wn3SiI8yGSpWUF9O1vdz7lqeZbOFHdqfdhdzW99h62Hoezm0zpd03Fctyyg0luSq6uH21w1TjmUAKwJNrwqijZfXtkUOwog3UXp+N1OK4zMEX4diAbzWRInu7S9rcaCi23dZ2rz9LG9psY37ua1qGURf0JZdnhtXNVSTZEBS1lvcQ4MysV/wBVvjQNzTSq7jkeO3q5H1E3/CtbykDB8mSUhIG+/BNtgy8QAXOxm/3j2D0UOdeoBkCdvpAlcpo8CWcG2smORQRtsWR30p0mqO0SMflie8d/NA2qiCDaQPXavTuMAih3q3L9rFImpZt/ytOHr/LSX5045+B0YHxwXmbIo0HzlmB+Okb7PBdwZJQGhxKpcuS97CwFQd2NV8zPVBS9h8ZCyHPsrbzFUDBaelMXVCpuP/0/BFm6bEddaVTbubfiHdGd0fwYiyd9JJ5mT2fIB7uDOJMkyptgov9lhqANzTk/bA3DYbM6bAM1l5slcw/PVluFydCm0dxWCR2Wb9y1wRiffAC823vQwkxz8/a+cMsosF/F8NoBid/cQKWvV02/ofp/NRyVOEcjULLXtRYtQjCoJBSxWisdek5HINyU5uZhpIihzOgX6o4gsJlN/syRxtxH+W++Yo9CiEzXj5iRzvUGExNkLN9CXjTOscMXSY0BcVMznGnXPiRos/7/yLqYNGB/2JsBI4w7ajC/vaDWT26m+i7vvhe/I3UGF2QMEL7PHFhllNCDEBqt9QeYrFEuWPVHlaE5Z7SEcz3MwJ+aNtgQm2YUG6dPj5oRQ/6MJhEiS9YQzaolBsbedZ+5tNRmh9274HKa7K67H1P4P2SdMoQTkRelFD4xHsMmq4HUuuSuYmTR4r9QmddaTu84RFVgrPNgAtobrO+FG3abKcJP715F0is2M0cNN7qwYzWlss8fsDZmOj4zev5cPBhgr+lxNsnt5x6Vo/cMfvQ93EUpglLE9LvTAIUAdhCGMbD75N7YtrQt+PTAzExDDaRrjfaiynjkhwqyiyYzVrZeUnq3nIz8fxK+DdburAl9EfRYlApUplQKLE5mPMIXx43h+/yxWJyKJXyEcBMGy2MxC8Y5wzSTZl9fDBekZ2YxphnI14THqDwrWvB4DYeIuIlGtfm9LUkO36Buf4rClps0Xy7XWKxvDDlql0Il0r22yGFhvG8SJOAcM9VRYprB89LaEIEr+VOjX3b1mLGomc4ttaYTZQ0qyNKK2+5Tkqr7rPfaAdt0qMgm/vrT/B8WtvXwTWWW+E1IOk8klLiRuo104nAczuOZ7LXtqPXXUVeflUodhtHWQm1AyDQSLwLEuKVgL15GSHu6KD17pGxP5P7+SgaANfi8FPmud2tZh8wnuf/7XsO6UN1VWzH4u4ilm+QtC9bS+h9QlkwgXGmYW0rONUEKHuda0HqsgfLEVSSnfULZ//Dgvlpim9Q9qQn/i5b6NKUNgIrIl22tbnsk6LMFyorzIjYh1/oypYOeBYg+tfDTIbA+vwdFmpS5VKlAueVGibipEuotAAAVxFDDAbUZLXoBSxqBfKc8FtP1QMiePv8CEv1qzVUgCrs3GtwqCP38jRh4T98E5HT9A46OdhG++SgU2DyrpSge3ufZaYIP5KHDRkeH5OI/yCdyj6MrVG9sqVSNT27ly9nm+BQJEkf2Q7lQ+P0kuPwrwUMxO88QMXidLOgZr5o6JzjlP3/3coFLZO0DNPKJTwQfB2NCTPMPCPonZYQPeCk8VUBqyC2jVAlnZiOiDSjnUuyD+ed58e1R2TytQIy9CbnyecEVWiqN2yc0CpPVG+ls/WohFDvs9Bdfzg3QokKDb6jjGhq0pTqUhi8vqQCKO8I1LDcEcbO03fB0gpQQSLHE24NfApWyavKp7Na03Qio5ibbTl3S3q/hYD8vk28MYOUfJirNp8wmcDQiu2o0sx4bMP6bhUvXTPKVaMIfsZRrhWv67M9Ld8u893hI/BuMpfBAlG0yb5SCWJ62UYXcpy5v7vIla/wz5+hD/Bfllki0ZpI4SSbS8aJ3milHu/EZeKxw0/bBCq7Qmv+M5zXdKWLdpKMj98qRrUXgkAYU9OBNr9SwiSIUkF0y3fgz2HdRORnEutp/Il1c7nPSrXAbzo62i5y8ZSSLJgr3wTIvrGz5xAqp8Mi8EN0OyPRHWgTwPJfWOcUiok9ucOFprffMRCb034MBYtiMS/DkrnCKkGwtj/DAv6G/HkNhnupDw+YQpsBWfdxy6EcG7wMR8ADq/czN1IChOYrbOnDICREAO86KzJCUda+68UWjEgN1lV/ls5s6OKS4VZt4m7y3CR2Xsk4G1Z1ThHTpPH6B0GVZKANmc+6m6aXFHHFRJx/5ZAqw3PPtN6h2peOcsOgUgU2zvUqdLWfHGkhIhXM9XiYF0qVwvRbr615rlyP0NQfMsHL8wmf0V07FEO9Aur2FyDsjTbqzS2p8fcgtkouiIRQTq9VNQ+tU17+XyVWsDHKJdpyCs9T0uE+ZmoKMf5AblLkK9ohD6oW9gHl6LGqLK+UZPUsUHtvYfESDhWQ4ZZd3STOCW3jZbpb6WyGt52ts+222ZzgqV2ANNqInugQrW3QsfN+W3GVOhUIB+MHvwkU7e0WssVYV5RondAcHDvC4/kJn74cCjsCXzaH/ERdDRJYcK1gIxH3AxM+drxkZTnfMb0defsdeVFDxbDiIpaOQJFEExg8iD42H9M1xvh24fXzvnTar6o4JEAnCXAnjckAx8BfcryNavaxd5ifvr9L2znXKHVez7or05zcUj1HAsnw6/9of2HEnSgENcR8jVOg/SnEFQAQENmPsHBorIhp+q2N4YFmardHMDF2T1HC6nw5WwmifPnjd3bOCYOX4+x15M270iZaLFrA2ExerHhpM/76wUQWLNSuyDtHXeclhnwvJ6UEgKD+X7p/UVi0M0PNhdZPXNLrbSAluCEuQuywqRu7mKKywTzDWf1jTBnk0FsLq4HBJOaYCc/mBpK8M4cW3vyLrFYgmLwAhF8+nK+MFmh7+dBNGDjvBzfof35PrB5iG+Tb35OYRSPyGKtlLnzYpb0pYv2IlnjLZTNSduacwz9yvTDIuLSABIUAuWPzeB9UC7rdunQJZaKj6kwoEJCIKhUPDjMm1LqK2OyFv0aBvCCHoYOmKSv5wKNzAecIx+d8hNvjwPch7vHp3jStIDZWhpCVo9ZzBmumdgyexluqc9AP+nXHEIZP7yyOtO5Q/nol9WB0x5X2mkarn5slawLe+XxVMm/rgyUFMqNmB5C13y07Kzsy6TddMZ/07vM1BcjujFfzIq3PTHB7Zd6JUKAujlcHZU7TNl29m3RU4yZJLaohP7tKcKFLifHAzUw5y5D/eH6G/PGsAz7WN6T+S3V36PvBZl07sR52E48pChdKL+3I8eUJATlMTdc9UuwrMeCA4RBpj3b0WFqjKfanZF65Q1EDTdbstf4wRduGFo9ghXcrbJPT5t9pG20KUJn3bU0JVLYYyDeHuGyPVxz7vbtp14lpQIz7g8XrBcF8J+qydnU1a3hEefUOInG/HpkBr6QjShBsH02J1Tu99sgZSPASgl1WASo1iSa9hZTRp47o2shHjgl3Z8sCbwQ04jWW58J7Nsbi5jZ8ppi0txyEqtqttkmDyIqa67fFv4x8AgttBs+uJYNWfpSNJm57RfhuRG3YBiTWYyrWYPG5kO8pM1leVn1QplQyNnH3+YSce7ub52EVXfzVoXI70bu4Tj4xiiVc1QVhbR0Sbc871fR6+8sFWL3emrA+btUeOcOJ8FO6E39lzXcUDOQIQG2BS+P7rGweeGsDUtyVOYHBOVS7VSUCgzJTlbuFVRV/GFDSKk1tKSt/V9C+Fa/GT1YBMdAHe1uKI9M0jiNVu5vnSRMIndDs55xyVgBdVnIYDwHcfoGGQLnWhf3DD7o5HBNQnLy252bAGmTmfHOIkJA+neux7+Pj5gZNexlymsqckBf1nWJ2SXbnTChY/67dg3cHmUw9qoUAFQsPBfVpgDhL8IOTV2K3Wqu1ufzNWIdR/IEI6e/j05CwHfbwCRrKkmzV/inmIbdZ02HAFki59Sy7I0N4hqfNFQDrbakYwuL3fLCdYIsemuf0GY/F/q7ZGJxD92ObvTQa/zWG+0u7A1AKTbNoMczvETV0UiLJbfKQH+L1NHrCn9p8pfx3gyM0VC1+orsxNebzCxTxK3XQoog6cUGXR59XY13iN+TF5grY/t1EBbWY3/6mU72ToxhB/48MeJFE2FlPqF/ieVT0ladohqtd36W/icEfuTFZUG6gvBpxLryahhzfYF4+uMd6dLyv6xG356xYGHFXyrbtxapO96+rgnHLAT/NwIthf9sKPstfeyh/p+aHR7tDls7Z1hkinZp/kvhSG6yb+JpNlmXHeM/sWqup9mRDHR7A3nt2+qL4EGXR7eGHSL1tElSeqAUNE1PaDUhbp5IKmtElrkcGGxfLN7fkCfW6xSHioboAX/3zbVfu9eKLFw/qliIRpq6AE5SiJven7hI6aA/UQBJtWUVCpNWQ+pV3Jhxz+5R4Dx8pdIYeT2mw3XqcoRBIKG64sN0WmFfxP0uMLJVQAmR5/LgPgAAAA==");
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+    button,input,select,textarea{font:inherit}
+    button{cursor:pointer}
+    a{color:inherit;text-decoration:none}
+    svg{display:block}
+    .hidden{display:none!important}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    :focus-visible{outline:3px solid rgba(207,39,43,.35);outline-offset:3px}
+
+    /* Abertura: o gesto da tesoura é a assinatura visual do projeto. */
+    .splash{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;background:radial-gradient(circle at 50% 42%,#343b42 0%,#1d2227 42%,#121519 100%);color:var(--paper);overflow:hidden;transition:opacity .65s ease,visibility .65s ease}
+    .splash.done{opacity:0;visibility:hidden}
+    .splash::before,.splash::after{content:"";position:absolute;border:1px solid rgba(255,255,255,.09);border-radius:50%;width:65vw;height:65vw;animation:pulseRing 2.4s ease-out infinite}
+    .splash::after{animation-delay:.75s}
+    .splash-inner{text-align:center;position:relative;z-index:1}
+    .splash-mark{width:clamp(170px,28vw,245px);aspect-ratio:1;margin:0 auto 22px;position:relative;filter:drop-shadow(0 22px 34px rgba(0,0,0,.42));animation:logoEntrance 1s cubic-bezier(.2,.8,.2,1) both;transform-origin:center}
+    .splash-mark::after{content:"";position:absolute;inset:8%;border-radius:50%;border:1px solid rgba(255,255,255,.32);animation:spinSeal 3s linear infinite}
+    .splash h1{margin:0;font-family:Impact,"Arial Narrow",sans-serif;font-size:clamp(2rem,6vw,4rem);font-weight:500;letter-spacing:.035em;text-transform:uppercase}
+    .splash p{margin:.5rem 0 0;text-transform:uppercase;letter-spacing:.27em;font-size:.68rem;color:#c9cdd1}
+    .progress-line{width:min(240px,70vw);height:2px;margin:30px auto 0;background:rgba(255,255,255,.12);overflow:hidden}
+    .progress-line span{display:block;height:100%;width:0;background:var(--copper-2);animation:load 3s linear forwards}
+    @keyframes load{to{width:100%}}
+    @keyframes logoEntrance{from{opacity:0;transform:translateY(18px) scale(.82)}to{opacity:1;transform:translateY(0) scale(1)}}
+    @keyframes spinSeal{to{transform:rotate(360deg)}}
+    @keyframes pulseRing{0%{transform:scale(.1);opacity:.5}100%{transform:scale(1.25);opacity:0}}
+
+    .topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:15px clamp(18px,4vw,64px);background:rgba(244,239,229,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:12px;font-family:Georgia,"Times New Roman",serif;font-size:1.2rem;font-weight:700;letter-spacing:-.02em}
+    .brand-mark{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:var(--ink);color:var(--paper);border:1px solid rgba(255,255,255,.25)}
+    .logo-image{background-image:var(--logo-image);background-size:cover;background-position:center;border-radius:50%;box-shadow:0 10px 24px rgba(20,25,30,.22)}
+    .desktop-nav{display:flex;gap:26px;font-size:.86rem;font-weight:700}
+    .desktop-nav a{position:relative}
+    .desktop-nav a::after{content:"";position:absolute;left:0;right:100%;bottom:-5px;height:2px;background:var(--copper);transition:.25s}
+    .desktop-nav a:hover::after{right:0}
+    .header-actions{display:flex;gap:9px}
+    .btn{border:0;border-radius:999px;padding:12px 18px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .2s,box-shadow .2s,background .2s}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-dark{background:var(--ink);color:var(--white);box-shadow:0 10px 25px rgba(23,19,15,.18)}
+    .btn-copper{background:var(--copper);color:white;box-shadow:0 12px 28px rgba(207,39,43,.24)}
+    .btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+    .btn-light{background:var(--paper);color:var(--ink)}
+    .btn-danger{background:#f3ddd8;color:var(--danger)}
+    .icon-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:transparent;display:grid;place-items:center}
+
+    .hero{min-height:calc(100vh - 70px);display:grid;grid-template-columns:minmax(0,1.08fr) minmax(350px,.92fr);padding:clamp(42px,8vw,105px) clamp(20px,6vw,92px);gap:6vw;align-items:center;position:relative;overflow:hidden}
+    .hero::before{content:"";position:absolute;width:520px;height:520px;right:-190px;top:-130px;border:1px solid var(--line);border-radius:50%;box-shadow:0 0 0 65px rgba(207,39,43,.035),0 0 0 130px rgba(36,88,166,.028)}
+    .eyebrow{display:flex;align-items:center;gap:10px;text-transform:uppercase;letter-spacing:.18em;font-size:.69rem;font-weight:900;color:var(--copper)}
+    .eyebrow::before{content:"";width:34px;height:1px;background:currentColor}
+    .hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(3.6rem,8vw,8rem);line-height:.88;letter-spacing:-.07em;margin:24px 0 28px;max-width:820px}
+    .hero h1 em{color:var(--copper);font-weight:400}
+    .hero-copy{max-width:590px;font-size:clamp(1rem,1.4vw,1.18rem);color:var(--muted)}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+    .hero-note{display:flex;align-items:center;gap:12px;margin-top:28px;font-size:.8rem;color:var(--muted)}
+    .hero-note span{width:8px;height:8px;background:var(--sage);border-radius:50%;box-shadow:0 0 0 6px rgba(36,88,166,.15)}
+    .portrait{position:relative;min-height:620px;border-radius:180px 180px 26px 26px;background:linear-gradient(155deg,#cfd3d6 0%,#69727a 43%,#20262d 100%);overflow:hidden;box-shadow:var(--shadow)}
+    .portrait::before{content:"";position:absolute;inset:8%;border:1px solid rgba(255,255,255,.22);border-radius:150px 150px 18px 18px}
+    .portrait-logo{position:absolute;width:72%;aspect-ratio:1;left:14%;top:9%;filter:drop-shadow(0 35px 28px rgba(0,0,0,.32));border:8px solid rgba(255,255,255,.36)}
+    .portrait-card{position:absolute;left:28px;right:28px;bottom:28px;padding:22px;background:rgba(24,20,17,.77);backdrop-filter:blur(14px);color:white;border:1px solid rgba(255,255,255,.13);border-radius:20px;display:flex;justify-content:space-between;align-items:end;gap:15px}
+    .portrait-card small{display:block;color:#cebdaa;text-transform:uppercase;letter-spacing:.14em;font-size:.65rem}
+    .portrait-card strong{font-family:Georgia,"Times New Roman",serif;font-size:1.55rem;font-weight:500}
+    .open-pill{padding:8px 12px;border-radius:999px;background:rgba(36,88,166,.22);color:#dbe7ff;font-size:.75rem;white-space:nowrap}
+
+    .section{padding:90px clamp(20px,6vw,92px)}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:38px}
+    .section h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.3rem,5vw,4.4rem);line-height:1;letter-spacing:-.05em;margin:12px 0 0;font-weight:500}
+    .section-intro{color:var(--muted);max-width:430px;margin:0}
+    .services{background:var(--ink);color:var(--paper)}
+    .services .eyebrow{color:var(--copper-2)}
+    .services .section-intro{color:#b9afa5}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service-card{padding:28px;border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);min-height:280px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;transition:.3s;background:rgba(255,255,255,.025)}
+    .service-card:hover{transform:translateY(-7px);border-color:rgba(217,144,98,.55);background:rgba(255,255,255,.05)}
+    .service-card::after{content:"";position:absolute;width:140px;height:140px;border:1px solid rgba(255,255,255,.07);border-radius:50%;right:-60px;top:-60px}
+    .service-card .service-num{color:var(--copper-2);font-size:.72rem;font-weight:900;letter-spacing:.18em}
+    .service-card h3{font-family:Georgia,"Times New Roman",serif;font-size:1.7rem;margin:auto 0 6px;font-weight:500}
+    .service-card p{color:#afa69c;margin:0 0 20px;font-size:.9rem}
+    .service-meta{display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.1);padding-top:16px;font-weight:800}
+
+    .experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .feature{padding:28px;border:1px solid var(--line);border-radius:var(--radius);background:rgba(255,255,255,.3)}
+    .feature-icon{width:48px;height:48px;border-radius:14px;background:var(--paper-2);display:grid;place-items:center;color:var(--copper);font-size:1.35rem}
+    .feature h3{font-family:Georgia,"Times New Roman",serif;font-size:1.45rem;margin:20px 0 8px}
+    .feature p{margin:0;color:var(--muted)}
+    .location-strip{margin-top:20px;background:var(--copper);color:white;border-radius:var(--radius);padding:30px;display:grid;grid-template-columns:1.3fr .7fr auto;gap:30px;align-items:center}
+    .location-strip strong{font-family:Georgia,"Times New Roman",serif;font-size:1.8rem;font-weight:500}
+    .location-strip small{display:block;opacity:.75;text-transform:uppercase;letter-spacing:.14em}
+
+    .footer{padding:44px clamp(20px,6vw,92px);background:#100e0c;color:#c7beb4;display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .footer .brand{color:white}
+    .footer small{max-width:520px}
+
+    .overlay{position:fixed;inset:0;z-index:200;background:rgba(17,14,11,.68);backdrop-filter:blur(8px);display:grid;place-items:center;padding:18px;opacity:0;visibility:hidden;transition:.25s}
+    .overlay.open{opacity:1;visibility:visible}
+    .modal{width:min(920px,100%);max-height:92vh;overflow:auto;background:var(--paper);border-radius:28px;box-shadow:0 35px 100px rgba(0,0,0,.38);transform:translateY(18px) scale(.98);transition:.25s}
+    .overlay.open .modal{transform:none}
+    .modal-head{position:sticky;top:0;z-index:4;background:rgba(244,239,229,.93);backdrop-filter:blur(14px);display:flex;justify-content:space-between;align-items:center;padding:19px 24px;border-bottom:1px solid var(--line)}
+    .modal-head h2{margin:0;font-family:Georgia,"Times New Roman",serif;font-weight:500}
+    .modal-body{padding:28px}
+
+    .steps{display:flex;gap:8px;margin-bottom:30px}
+    .step-dot{height:6px;flex:1;border-radius:99px;background:#ded5c8;transition:.3s}
+    .step-dot.active,.step-dot.done{background:var(--copper)}
+    .step-label{color:var(--copper);font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.14em;margin-bottom:8px}
+    .wizard h3{font-family:Georgia,"Times New Roman",serif;font-size:2.1rem;margin:0 0 22px;font-weight:500}
+    .choice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .choice{border:1px solid var(--line);border-radius:17px;padding:18px;text-align:left;background:rgba(255,255,255,.35);transition:.2s;color:var(--ink)}
+    .choice:hover,.choice.selected{border-color:var(--copper);background:#f8e5e5;box-shadow:0 10px 25px rgba(207,39,43,.08)}
+    .choice strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:1.12rem}
+    .choice small{color:var(--muted)}
+    .choice .price{display:block;margin-top:14px;color:var(--copper);font-weight:900}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+    .field{display:flex;flex-direction:column;gap:7px}
+    .field.full{grid-column:1/-1}
+    .field label{font-size:.78rem;font-weight:800}
+    .input{width:100%;border:1px solid var(--line);border-radius:13px;padding:13px 14px;background:rgba(255,255,255,.55);color:var(--ink)}
+    textarea.input{min-height:92px;resize:vertical}
+    .time-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .time-slot{border:1px solid var(--line);border-radius:12px;padding:12px;background:rgba(255,255,255,.55);font-weight:800}
+    .time-slot:hover,.time-slot.selected{background:var(--ink);color:white;border-color:var(--ink)}
+    .time-slot:disabled{text-decoration:line-through;opacity:.32;cursor:not-allowed}
+    .wizard-actions{display:flex;justify-content:space-between;gap:12px;margin-top:30px;padding-top:20px;border-top:1px solid var(--line)}
+    .summary-card{background:var(--ink);color:white;border-radius:20px;padding:24px;display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+    .summary-item small{display:block;color:#b9afa5;text-transform:uppercase;letter-spacing:.12em;font-size:.64rem}
+    .summary-item strong{font-family:Georgia,"Times New Roman",serif;font-size:1.25rem;font-weight:500}
+    .success-view{text-align:center;padding:28px 10px}
+    .success-icon{width:78px;height:78px;border-radius:50%;margin:0 auto 20px;background:#dce9df;color:var(--success);display:grid;place-items:center;font-size:2rem}
+
+    .client-search{display:flex;gap:10px;margin-bottom:25px}
+    .booking-list{display:grid;gap:10px}
+    .booking-item{display:grid;grid-template-columns:90px 1fr auto;gap:16px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:14px;background:rgba(255,255,255,.35)}
+    .date-box{background:var(--ink);color:white;border-radius:12px;padding:10px;text-align:center}
+    .date-box strong{display:block;font-size:1.3rem}
+    .date-box small{text-transform:uppercase;font-size:.65rem}
+    .booking-item h4{margin:0 0 3px}
+    .booking-item p{margin:0;color:var(--muted);font-size:.86rem}
+    .status{display:inline-flex;padding:5px 9px;border-radius:999px;font-size:.67rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em;background:#e4ded4;color:var(--muted)}
+    .status.confirmed{background:#dce9df;color:var(--success)}
+    .status.cancelled{background:#f3ddd8;color:var(--danger)}
+
+    .admin-login{width:min(430px,100%);padding:36px;text-align:center}
+    .admin-login .brand-mark{margin:0 auto 20px;width:56px;height:56px}
+    .admin-login h2{font-family:Georgia,"Times New Roman",serif;font-size:2rem;margin:0 0 8px}
+    .admin-login p{color:var(--muted);margin:0 0 22px}
+    .error{color:var(--danger);font-size:.8rem;font-weight:700;min-height:20px;margin-top:8px}
+    .admin-shell{width:min(1220px,100%);height:min(830px,94vh);display:grid;grid-template-columns:230px 1fr;background:var(--paper);border-radius:28px;overflow:hidden}
+    .admin-side{background:var(--ink);color:white;padding:25px 18px;display:flex;flex-direction:column}
+    .admin-side .brand{padding:0 8px 26px;border-bottom:1px solid rgba(255,255,255,.1)}
+    .admin-menu{display:grid;gap:6px;margin-top:22px}
+    .admin-menu button{border:0;border-radius:11px;padding:11px 13px;background:transparent;color:#bdb2a6;text-align:left;font-weight:700}
+    .admin-menu button:hover,.admin-menu button.active{background:rgba(255,255,255,.1);color:white}
+    .admin-side .logout{margin-top:auto;color:#d9a18f}
+    .admin-main{overflow:auto;padding:30px}
+    .admin-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}
+    .admin-top h2{font-family:Georgia,"Times New Roman",serif;font-size:2.2rem;margin:0;font-weight:500}
+    .metric-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+    .metric{padding:20px;border-radius:17px;background:rgba(255,255,255,.45);border:1px solid var(--line)}
+    .metric small{color:var(--muted)}
+    .metric strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:1.8rem;margin-top:5px;font-weight:500}
+    .panel{border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.32);overflow:hidden;margin-bottom:18px}
+    .panel-head{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}
+    .panel-head h3{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:1.25rem}
+    .table-wrap{overflow:auto}
+    table{width:100%;border-collapse:collapse;font-size:.86rem}
+    th,td{padding:13px 17px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+    th{font-size:.69rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted)}
+    tr:last-child td{border-bottom:0}
+    .table-actions{display:flex;gap:6px}
+    .mini{border:0;border-radius:8px;padding:7px 9px;font-size:.72rem;font-weight:800;background:var(--paper-2);color:var(--ink)}
+    .mini.ok{background:#dce9df;color:var(--success)}
+    .mini.no{background:#f3ddd8;color:var(--danger)}
+    .empty{padding:38px;text-align:center;color:var(--muted)}
+    .toast{position:fixed;z-index:1001;left:50%;bottom:24px;transform:translate(-50%,30px);opacity:0;background:var(--ink);color:white;padding:12px 18px;border-radius:999px;box-shadow:var(--shadow);font-weight:700;transition:.3s;pointer-events:none}
+    .toast.show{transform:translate(-50%,0);opacity:1}
+    .mobile-menu{display:none}
+
+    @media(max-width:920px){
+      .desktop-nav{display:none}.hero{grid-template-columns:1fr;min-height:auto}.portrait{min-height:500px}.service-grid{grid-template-columns:1fr}.location-strip{grid-template-columns:1fr}.metric-grid{grid-template-columns:1fr 1fr}.choice-grid{grid-template-columns:1fr 1fr}.admin-shell{grid-template-columns:78px 1fr}.admin-side{padding:20px 10px}.admin-side .brand span,.admin-menu button span,.logout span{display:none}.admin-menu button{text-align:center}.admin-side .brand{justify-content:center}.experience-grid{grid-template-columns:1fr}}
+    @media(max-width:620px){
+      .topbar{padding:12px 14px}.brand{font-size:1rem}.header-actions .btn-ghost{display:none}.header-actions .btn{padding:10px 13px;font-size:.77rem}.hero{padding:55px 18px}.hero h1{font-size:3.8rem}.portrait{min-height:410px;border-radius:120px 120px 24px 24px}.section{padding:66px 18px}.section-head{display:block}.section-intro{margin-top:16px}.choice-grid,.form-grid{grid-template-columns:1fr}.time-grid{grid-template-columns:repeat(3,1fr)}.summary-card{grid-template-columns:1fr}.modal-body{padding:20px}.booking-item{grid-template-columns:72px 1fr}.booking-item>div:last-child{grid-column:2}.client-search{display:grid}.admin-main{padding:20px 14px}.admin-shell{grid-template-columns:62px 1fr;height:96vh}.metric-grid{grid-template-columns:1fr}.admin-top{align-items:flex-start;gap:10px}.admin-top h2{font-size:1.7rem}.footer{display:grid}.splash h1{font-size:3rem}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+  <div class="splash" id="splash" aria-label="Carregando a barbearia">
+    <div class="splash-inner">
+      <div class="splash-mark logo-image" role="img" aria-label="Logomarca Barbearia Emanuel Sousa"></div>
+      <h1>Emanuel Sousa</h1><p>Estilo • Precisão • Confiança</p><div class="progress-line"><span></span></div>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark logo-image" aria-hidden="true"></span><span data-brand>Barbearia Emanuel Sousa</span></a>
+    <nav class="desktop-nav" aria-label="Navegação principal"><a href="#servicos">Serviços</a><a href="#experiencia">Experiência</a><a href="#local">Onde estamos</a></nav>
+    <div class="header-actions"><button class="btn btn-ghost" data-open-client>Meus horários</button><button class="btn btn-dark" data-open-booking>Agendar</button><button class="icon-btn" data-open-admin aria-label="Área administrativa">⚙</button></div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div>
+        <div class="eyebrow">Desde 2020 · Estilo, precisão e confiança.</div>
+        <h1>Seu estilo,<br><em>nossa marca.</em></h1>
+        <p class="hero-copy">Escolha o serviço, encontre um horário livre e confirme em poucos passos. Um atendimento por vez, com técnica, memória e cuidado.</p>
+        <div class="hero-actions"><button class="btn btn-copper" data-open-booking>Escolher meu horário →</button><button class="btn btn-ghost" data-whatsapp>Falar no WhatsApp</button></div>
+        <div class="hero-note"><span></span> Agenda atualizada em tempo real • sem ligações</div>
+      </div>
+      <div class="portrait" aria-label="Logomarca da Barbearia Emanuel Sousa">
+        <div class="portrait-logo logo-image" role="img" aria-label="Barbearia Emanuel Sousa, desde 2020"></div>
+        <div class="portrait-card"><div><small>Próxima disponibilidade</small><strong id="nextAvailability">Hoje, 14:00</strong></div><span class="open-pill">● Agenda aberta</span></div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="section-head"><div><div class="eyebrow">Menu da cadeira</div><h2>Serviços essenciais.</h2></div><p class="section-intro">Tempo reservado exclusivamente para você. Sem fila, sem correria e com o acabamento que faz diferença.</p></div>
+      <div class="service-grid" id="publicServices"></div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="section-head"><div><div class="eyebrow">Experiência Emanuel Sousa</div><h2>Ele lembra<br>do seu corte.</h2></div><p class="section-intro">Seu histórico e suas preferências ficam organizados para que cada retorno seja mais simples e consistente.</p></div>
+      <div class="experience-grid">
+        <article class="feature"><div class="feature-icon">◷</div><h3>Agendamento direto</h3><p>Serviço, data, horário e confirmação em um fluxo curto, exibindo somente vagas disponíveis.</p></article>
+        <article class="feature"><div class="feature-icon">✦</div><h3>Preferências registradas</h3><p>Máquina, tesoura, degradê e observações do último atendimento ficam no histórico do cliente.</p></article>
+        <article class="feature"><div class="feature-icon">↻</div><h3>Retorno sem esforço</h3><p>Acesse seus horários pelo telefone, consulte visitas anteriores e agende novamente.</p></article>
+        <article class="feature"><div class="feature-icon">✓</div><h3>Confirmação clara</h3><p>Veja o resumo antes de confirmar e receba uma mensagem pronta para compartilhar no WhatsApp.</p></article>
+      </div>
+      <div class="location-strip" id="local"><div><small>Onde estamos</small><strong id="addressText">Rua do Estilo, 126 — Centro</strong></div><div><small>Horário</small><b id="hoursText">Ter–Sáb · 09h às 19h</b></div><button class="btn btn-light" data-open-booking>Reservar cadeira</button></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="brand"><span class="brand-mark logo-image" aria-hidden="true"></span><span data-brand>Barbearia Emanuel Sousa</span></div><small>Estilo • Precisão • Confiança. Atendimento individual com hora marcada. © <span id="year"></span>.</small></footer>
+
+  <div class="overlay" id="bookingOverlay" role="dialog" aria-modal="true" aria-labelledby="bookingTitle">
+    <div class="modal"><div class="modal-head"><h2 id="bookingTitle">Agendar horário</h2><button class="icon-btn" data-close="bookingOverlay" aria-label="Fechar">×</button></div><div class="modal-body"><div class="steps" id="steps"></div><div class="wizard" id="wizard"></div></div></div>
+  </div>
+
+  <div class="overlay" id="clientOverlay" role="dialog" aria-modal="true" aria-labelledby="clientTitle">
+    <div class="modal"><div class="modal-head"><h2 id="clientTitle">Área do cliente</h2><button class="icon-btn" data-close="clientOverlay" aria-label="Fechar">×</button></div><div class="modal-body"><p style="color:var(--muted);margin-top:0">Consulte seus próximos horários e seu histórico usando o telefone informado no agendamento.</p><div class="client-search"><input class="input" id="clientPhone" inputmode="tel" placeholder="(00) 00000-0000"><button class="btn btn-dark" id="searchClient">Consultar</button></div><div id="clientResults" class="booking-list"><div class="empty">Informe seu telefone para encontrar os agendamentos.</div></div></div></div>
+  </div>
+
+  <div class="overlay" id="adminLoginOverlay" role="dialog" aria-modal="true" aria-labelledby="adminLoginTitle">
+    <div class="modal admin-login"><span class="brand-mark logo-image"></span><h2 id="adminLoginTitle">Área do barbeiro</h2><p>Acesso reservado para gerenciar agenda e negócio.</p><form id="adminLoginForm"><input class="sr-only" name="username" autocomplete="username" value="administrador" aria-hidden="true" tabindex="-1"><input class="input" id="adminPassword" type="password" autocomplete="current-password" placeholder="Senha de acesso"><div class="error" id="loginError"></div><button class="btn btn-dark" id="loginBtn" type="submit" style="width:100%">Entrar no painel</button><button class="btn btn-ghost" type="button" data-close="adminLoginOverlay" style="width:100%;margin-top:9px">Voltar</button></form></div>
+  </div>
+
+  <div class="overlay" id="adminOverlay" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+    <div class="admin-shell">
+      <aside class="admin-side"><div class="brand"><span class="brand-mark logo-image"></span><span>Emanuel Sousa</span></div><nav class="admin-menu" id="adminMenu"><button class="active" data-view="dashboard">◫ <span>Dashboard</span></button><button data-view="agenda">◷ <span>Agenda</span></button><button data-view="clientes">♙ <span>Clientes</span></button><button data-view="servicos">✂ <span>Serviços</span></button><button data-view="financeiro">R$ <span>Financeiro</span></button><button data-view="config">⚙ <span>Configurações</span></button></nav><button class="admin-menu logout" id="logoutBtn">← <span>Sair do painel</span></button></aside>
+      <section class="admin-main"><div class="admin-top"><div><small class="eyebrow">Área administrativa</small><h2 id="adminTitle">Visão geral</h2></div><button class="icon-btn" data-close="adminOverlay" aria-label="Fechar painel">×</button></div><div id="adminContent"></div></section>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>
+    /* FIREBASE REALTIME DATABASE
+       1) Crie um projeto no Firebase e habilite Realtime Database.
+       2) Cole abaixo os dados exibidos em Configurações do projeto > Seus apps > Web.
+       3) O app usa o caminho barbershop/v1 e mantém localStorage como modo demonstração.
+       4) Em produção, proteja as regras do banco e substitua a senha local por Firebase Authentication.
+    */
+    const firebaseConfig = {
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: ""
+    };
+
+    const ADMIN_PASSWORD = "barbearia2026";
+    const STORAGE_KEY = "emanuelSousaBarbeariaDataV2";
+    const defaultData = {
+      settings:{brand:"Barbearia Emanuel Sousa",address:"Rua do Estilo, 126 — Centro",hours:"Ter–Sáb · 09h às 19h",whatsapp:"",open:"09:00",close:"19:00",interval:30},
+      services:{
+        corte:{id:"corte",name:"Corte masculino",duration:40,price:40,description:"Tesoura, máquina e acabamento."},
+        combo:{id:"combo",name:"Corte + barba",duration:60,price:60,description:"Experiência completa, do fio ao contorno."},
+        barba:{id:"barba",name:"Barba",duration:30,price:30,description:"Desenho, toalha quente e finalização."}
+      },
+      bookings:{},blocks:{}
+    };
+    let data = structuredClone(defaultData), dbApi = null, wizardStep = 1;
+    let draft = {serviceId:"",date:"",time:"",name:"",phone:"",notes:""};
+    let adminView = "dashboard";
+
+    const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+    const money = n => Number(n||0).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+    const cleanPhone = v => (v||"").replace(/\D/g,"");
+    const todayISO = () => {const d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());return d.toISOString().slice(0,10)};
+    const formatDate = d => new Date(d+"T12:00:00").toLocaleDateString("pt-BR",{weekday:"short",day:"2-digit",month:"short"});
+    const uid = () => Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+    const esc = v => String(v??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+    function toast(msg){const el=$("#toast");el.textContent=msg;el.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove("show"),2600)}
+
+    async function initStorage(){
+      const configured = firebaseConfig.apiKey && firebaseConfig.databaseURL;
+      if(configured){
+        try{
+          const appMod = await import("https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js");
+          const dbMod = await import("https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js");
+          const app = appMod.initializeApp(firebaseConfig), db = dbMod.getDatabase(app), root = dbMod.ref(db,"barbershop/v1");
+          dbApi = {save:v=>dbMod.set(root,v)};
+          dbMod.onValue(root,snap=>{if(snap.exists()) data=mergeData(snap.val()); else dbApi.save(defaultData);renderAll()});
+          return;
+        }catch(err){console.warn("Firebase indisponível; usando modo local.",err);toast("Firebase indisponível: modo local ativado")}
+      }
+      const saved=localStorage.getItem(STORAGE_KEY);if(saved){try{data=mergeData(JSON.parse(saved))}catch{data=structuredClone(defaultData)}}
+      renderAll();
+    }
+    function mergeData(v){return {settings:{...defaultData.settings,...(v.settings||{})},services:v.services||structuredClone(defaultData.services),bookings:v.bookings||{},blocks:v.blocks||{}}}
+    async function persist(){if(dbApi) await dbApi.save(data);else localStorage.setItem(STORAGE_KEY,JSON.stringify(data));renderAll()}
+
+    function renderAll(){
+      $$('[data-brand]').forEach(e=>e.textContent=data.settings.brand);
+      $("#addressText").textContent=data.settings.address;$("#hoursText").textContent=data.settings.hours;
+      renderPublicServices();updateNextAvailability();if($("#adminOverlay").classList.contains("open"))renderAdmin();
+    }
+    function renderPublicServices(){
+      $("#publicServices").innerHTML=Object.values(data.services).map((s,i)=>`<article class="service-card"><span class="service-num">CADEIRA · ${String(i+1).padStart(2,"0")}</span><div><h3>${esc(s.name)}</h3><p>${esc(s.description||"Atendimento com hora marcada.")}</p></div><div class="service-meta"><span>${s.duration} min</span><span>${money(s.price)}</span></div></article>`).join("");
+    }
+    function updateNextAvailability(){
+      const slots=getSlots(todayISO()),free=slots.find(s=>!s.busy);$("#nextAvailability").textContent=free?`Hoje, ${free.time}`:"Consulte amanhã";
+    }
+    function getSlots(date){
+      const [oh,om]=data.settings.open.split(":").map(Number),[ch,cm]=data.settings.close.split(":").map(Number),step=Number(data.settings.interval)||30;
+      const booked=Object.values(data.bookings).filter(b=>b.date===date&&b.status!=="cancelled").map(b=>b.time),blocked=Object.values(data.blocks).filter(b=>b.date===date).map(b=>b.time),out=[];
+      for(let mins=oh*60+om;mins<ch*60+cm;mins+=step){const time=`${String(Math.floor(mins/60)).padStart(2,"0")}:${String(mins%60).padStart(2,"0")}`;out.push({time,busy:booked.includes(time)||blocked.includes(time)})}return out;
+    }
+
+    function openOverlay(id){$("#"+id).classList.add("open");document.body.style.overflow="hidden"}
+    function closeOverlay(id){$("#"+id).classList.remove("open");if(!$(".overlay.open"))document.body.style.overflow="";else document.body.style.overflow=""}
+    $$('[data-open-booking]').forEach(b=>b.onclick=()=>{draft={serviceId:"",date:todayISO(),time:"",name:"",phone:"",notes:""};wizardStep=1;renderWizard();openOverlay("bookingOverlay")});
+    $$('[data-open-client]').forEach(b=>b.onclick=()=>openOverlay("clientOverlay"));
+    $$('[data-open-admin]').forEach(b=>b.onclick=()=>{if(sessionStorage.getItem("emanuelSousaAdmin")==="1")openAdmin();else openOverlay("adminLoginOverlay")});
+    $$('[data-close]').forEach(b=>b.onclick=()=>closeOverlay(b.dataset.close));
+    $$(".overlay").forEach(o=>o.addEventListener("mousedown",e=>{if(e.target===o&&o.id!=="adminOverlay")closeOverlay(o.id)}));
+    document.addEventListener("keydown",e=>{if(e.key==="Escape"){const o=$$(".overlay.open").pop();if(o)closeOverlay(o.id)}});
+
+    function renderSteps(){$("#steps").innerHTML=[1,2,3,4,5].map(i=>`<span class="step-dot ${i===wizardStep?"active":i<wizardStep?"done":""}"></span>`).join("")}
+    function renderWizard(){
+      renderSteps();const w=$("#wizard"),service=data.services[draft.serviceId];
+      if(wizardStep===1)w.innerHTML=`<div class="step-label">Passo 1 de 5 · Serviço</div><h3>O que vamos fazer?</h3><div class="choice-grid">${Object.values(data.services).map(s=>`<button class="choice ${draft.serviceId===s.id?"selected":""}" data-service="${s.id}"><strong>${esc(s.name)}</strong><small>${s.duration} minutos</small><span class="price">${money(s.price)}</span></button>`).join("")}</div><div class="wizard-actions"><span></span><button class="btn btn-dark" id="nextWizard" ${!draft.serviceId?"disabled":""}>Escolher data →</button></div>`;
+      if(wizardStep===2)w.innerHTML=`<div class="step-label">Passo 2 de 5 · Data</div><h3>Qual é o melhor dia?</h3><div class="field"><label for="bookingDate">Data do atendimento</label><input class="input" id="bookingDate" type="date" min="${todayISO()}" value="${draft.date||todayISO()}"></div><div class="wizard-actions"><button class="btn btn-ghost" id="prevWizard">← Voltar</button><button class="btn btn-dark" id="nextWizard">Ver horários →</button></div>`;
+      if(wizardStep===3){const slots=getSlots(draft.date);w.innerHTML=`<div class="step-label">Passo 3 de 5 · Horário</div><h3>Escolha uma vaga livre.</h3><p style="color:var(--muted)">${formatDate(draft.date)} · ${esc(service.name)} · ${service.duration} min</p><div class="time-grid">${slots.map(s=>`<button class="time-slot ${draft.time===s.time?"selected":""}" data-time="${s.time}" ${s.busy?"disabled":""}>${s.time}</button>`).join("")}</div><div class="wizard-actions"><button class="btn btn-ghost" id="prevWizard">← Voltar</button><button class="btn btn-dark" id="nextWizard" ${!draft.time?"disabled":""}>Seus dados →</button></div>`}
+      if(wizardStep===4)w.innerHTML=`<div class="step-label">Passo 4 de 5 · Cliente</div><h3>Como podemos confirmar?</h3><div class="form-grid"><div class="field"><label>Seu nome</label><input class="input" id="draftName" value="${esc(draft.name)}" placeholder="Nome completo"></div><div class="field"><label>WhatsApp / telefone</label><input class="input" id="draftPhone" inputmode="tel" value="${esc(draft.phone)}" placeholder="(00) 00000-0000"></div><div class="field full"><label>Preferências do corte</label><textarea class="input" id="draftNotes" placeholder="Ex.: máquina 2 nas laterais, tesoura em cima...">${esc(draft.notes)}</textarea></div></div><div class="wizard-actions"><button class="btn btn-ghost" id="prevWizard">← Voltar</button><button class="btn btn-dark" id="nextWizard">Revisar →</button></div>`;
+      if(wizardStep===5)w.innerHTML=`<div class="step-label">Passo 5 de 5 · Confirmar</div><h3>Está tudo certo?</h3><div class="summary-card"><div class="summary-item"><small>Serviço</small><strong>${esc(service.name)}</strong></div><div class="summary-item"><small>Valor</small><strong>${money(service.price)}</strong></div><div class="summary-item"><small>Data e hora</small><strong>${formatDate(draft.date)} · ${draft.time}</strong></div><div class="summary-item"><small>Cliente</small><strong>${esc(draft.name)}</strong></div></div><div class="wizard-actions"><button class="btn btn-ghost" id="prevWizard">← Corrigir</button><button class="btn btn-copper" id="confirmBooking">Confirmar agendamento</button></div>`;
+      bindWizard();
+    }
+    function bindWizard(){
+      $$('[data-service]').forEach(b=>b.onclick=()=>{draft.serviceId=b.dataset.service;renderWizard()});
+      $$('[data-time]').forEach(b=>b.onclick=()=>{draft.time=b.dataset.time;renderWizard()});
+      const next=$("#nextWizard"),prev=$("#prevWizard");if(prev)prev.onclick=()=>{wizardStep--;renderWizard()};
+      if(next)next.onclick=()=>{
+        if(wizardStep===2){draft.date=$("#bookingDate").value;if(!draft.date)return toast("Escolha uma data")}
+        if(wizardStep===4){draft.name=$("#draftName").value.trim();draft.phone=$("#draftPhone").value.trim();draft.notes=$("#draftNotes").value.trim();if(!draft.name||cleanPhone(draft.phone).length<10)return toast("Informe nome e telefone válidos")}
+        wizardStep++;renderWizard();
+      };
+      const confirm=$("#confirmBooking");if(confirm)confirm.onclick=confirmBooking;
+    }
+    async function confirmBooking(){
+      if(getSlots(draft.date).find(s=>s.time===draft.time)?.busy)return toast("Este horário acabou de ser ocupado. Escolha outro.");
+      const s=data.services[draft.serviceId],id=uid();data.bookings[id]={id,...draft,phone:cleanPhone(draft.phone),serviceName:s.name,duration:s.duration,price:Number(s.price),status:"pending",createdAt:new Date().toISOString()};await persist();
+      $("#steps").innerHTML="";$("#wizard").innerHTML=`<div class="success-view"><div class="success-icon">✓</div><h3>Horário reservado!</h3><p>Seu agendamento para <b>${formatDate(draft.date)}, às ${draft.time}</b>, foi registrado.</p><div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:24px"><button class="btn btn-copper" data-share-booking>Compartilhar no WhatsApp</button><button class="btn btn-ghost" data-finish-booking>Concluir</button></div></div>`;
+      $('[data-finish-booking]').onclick=()=>closeOverlay("bookingOverlay");$('[data-share-booking]').onclick=()=>shareBooking();
+    }
+    function shareBooking(){const s=data.services[draft.serviceId],msg=`Olá! Agendamento em ${data.settings.brand}: ${s.name}, ${formatDate(draft.date)} às ${draft.time}. Cliente: ${draft.name}.`;window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`,"_blank","noopener")}
+
+    $("#searchClient").onclick=renderClientResults;$("#clientPhone").addEventListener("keydown",e=>{if(e.key==="Enter")renderClientResults()});
+    function renderClientResults(){
+      const phone=cleanPhone($("#clientPhone").value),items=Object.values(data.bookings).filter(b=>cleanPhone(b.phone)===phone).sort((a,b)=>(b.date+b.time).localeCompare(a.date+a.time)),box=$("#clientResults");
+      if(phone.length<10){box.innerHTML='<div class="empty">Digite um telefone válido com DDD.</div>';return}if(!items.length){box.innerHTML='<div class="empty">Nenhum agendamento encontrado para este telefone.</div>';return}
+      box.innerHTML=items.map(b=>{const d=new Date(b.date+"T12:00:00");return `<article class="booking-item"><div class="date-box"><small>${d.toLocaleDateString("pt-BR",{month:"short"})}</small><strong>${String(d.getDate()).padStart(2,"0")}</strong></div><div><h4>${esc(b.serviceName)}</h4><p>${b.time} · ${money(b.price)}${b.notes?` · ${esc(b.notes)}`:""}</p></div><div><span class="status ${b.status}">${statusLabel(b.status)}</span>${b.status!=="cancelled"&&b.date>=todayISO()?`<button class="mini no" data-client-cancel="${b.id}" style="margin-left:6px">Cancelar</button>`:""}</div></article>`}).join("");
+      $$('[data-client-cancel]').forEach(btn=>btn.onclick=async()=>{if(confirm("Cancelar este agendamento?")){data.bookings[btn.dataset.clientCancel].status="cancelled";await persist();renderClientResults();toast("Agendamento cancelado")}});
+    }
+    function statusLabel(s){return ({pending:"A confirmar",confirmed:"Confirmado",completed:"Concluído",cancelled:"Cancelado"})[s]||s}
+
+    $("#adminLoginForm").addEventListener("submit",e=>{e.preventDefault();login()});
+    function login(){if($("#adminPassword").value===ADMIN_PASSWORD){sessionStorage.setItem("emanuelSousaAdmin","1");$("#adminPassword").value="";$("#loginError").textContent="";closeOverlay("adminLoginOverlay");openAdmin()}else $("#loginError").textContent="Senha incorreta. Tente novamente."}
+    function openAdmin(){adminView="dashboard";renderAdmin();openOverlay("adminOverlay")}
+    $("#logoutBtn").onclick=()=>{sessionStorage.removeItem("emanuelSousaAdmin");closeOverlay("adminOverlay");toast("Sessão administrativa encerrada")};
+    $("#adminMenu").onclick=e=>{const b=e.target.closest("[data-view]");if(!b)return;adminView=b.dataset.view;$$('[data-view]').forEach(x=>x.classList.toggle("active",x===b));renderAdmin()};
+    function renderAdmin(){
+      const titles={dashboard:"Visão geral",agenda:"Minha agenda",clientes:"Clientes",servicos:"Serviços",financeiro:"Financeiro",config:"Configurações"};$("#adminTitle").textContent=titles[adminView];
+      const c=$("#adminContent");if(adminView==="dashboard")c.innerHTML=dashboardView();if(adminView==="agenda")c.innerHTML=agendaView();if(adminView==="clientes")c.innerHTML=clientsView();if(adminView==="servicos")c.innerHTML=servicesView();if(adminView==="financeiro")c.innerHTML=financeView();if(adminView==="config")c.innerHTML=configView();bindAdmin();
+    }
+    function activeBookings(){return Object.values(data.bookings).filter(b=>b.status!=="cancelled")}
+    function dashboardView(){
+      const all=activeBookings(),today=all.filter(b=>b.date===todayISO()),revenue=all.filter(b=>b.status==="completed").reduce((a,b)=>a+Number(b.price),0),clients=new Set(all.map(b=>b.phone)).size;
+      return `<div class="metric-grid"><div class="metric"><small>Hoje</small><strong>${today.length}</strong><span>atendimentos</span></div><div class="metric"><small>Faturamento registrado</small><strong>${money(revenue)}</strong></div><div class="metric"><small>Clientes</small><strong>${clients}</strong></div><div class="metric"><small>Ticket médio</small><strong>${money(all.length?all.reduce((a,b)=>a+Number(b.price),0)/all.length:0)}</strong></div></div>${bookingTable(today.length?today:all.slice(0,6),today.length?"Agenda de hoje":"Próximos registros")}`
+    }
+    function agendaView(){return `<div class="panel"><div class="panel-head"><h3>Bloquear um horário</h3></div><div style="padding:18px" class="form-grid"><div class="field"><label>Data</label><input class="input" id="blockDate" type="date" min="${todayISO()}" value="${todayISO()}"></div><div class="field"><label>Horário</label><input class="input" id="blockTime" type="time" value="12:00"></div><div class="field full"><button class="btn btn-dark" id="addBlock">Bloquear horário</button></div></div></div>${bookingTable(Object.values(data.bookings).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time)),"Todos os agendamentos")}`}
+    function bookingTable(items,title){if(!items.length)return `<div class="panel"><div class="panel-head"><h3>${title}</h3></div><div class="empty">Nenhum agendamento por aqui.</div></div>`;return `<div class="panel"><div class="panel-head"><h3>${title}</h3><span class="status">${items.length} registros</span></div><div class="table-wrap"><table><thead><tr><th>Data</th><th>Hora</th><th>Cliente</th><th>Serviço</th><th>Status</th><th>Ações</th></tr></thead><tbody>${items.map(b=>`<tr><td>${formatDate(b.date)}</td><td><b>${b.time}</b></td><td>${esc(b.name)}</td><td>${esc(b.serviceName)}</td><td><span class="status ${b.status}">${statusLabel(b.status)}</span></td><td><div class="table-actions">${b.status==="pending"?`<button class="mini ok" data-action="confirm" data-id="${b.id}">Confirmar</button>`:""}${b.status!=="completed"&&b.status!=="cancelled"?`<button class="mini" data-action="complete" data-id="${b.id}">Concluir</button><button class="mini no" data-action="cancel" data-id="${b.id}">Cancelar</button>`:""}</div></td></tr>`).join("")}</tbody></table></div></div>`}
+    function clientsView(){
+      const map={};Object.values(data.bookings).forEach(b=>{map[b.phone]=map[b.phone]||{name:b.name,phone:b.phone,count:0,total:0,last:"",notes:""};const x=map[b.phone];if(b.status!=="cancelled"){x.count++;x.total+=Number(b.price)}if(b.date>x.last){x.last=b.date;x.notes=b.notes||x.notes}});const items=Object.values(map);
+      return `<div class="panel"><div class="panel-head"><h3>Cadastro e histórico</h3><span class="status">${items.length} clientes</span></div>${items.length?`<div class="table-wrap"><table><thead><tr><th>Cliente</th><th>Telefone</th><th>Visitas</th><th>Última visita</th><th>Preferências</th></tr></thead><tbody>${items.map(x=>`<tr><td><b>${esc(x.name)}</b></td><td>${esc(x.phone)}</td><td>${x.count}</td><td>${x.last?formatDate(x.last):"—"}</td><td title="${esc(x.notes)}">${esc(x.notes||"—")}</td></tr>`).join("")}</tbody></table></div>`:'<div class="empty">Os clientes aparecem após o primeiro agendamento.</div>'}</div>`}
+    function servicesView(){return `<div class="panel"><div class="panel-head"><h3>Serviços e preços</h3></div><div style="padding:18px;display:grid;gap:12px">${Object.values(data.services).map(s=>`<div class="form-grid" style="padding-bottom:14px;border-bottom:1px solid var(--line)"><input class="input" data-s-name="${s.id}" value="${esc(s.name)}"><input class="input" data-s-price="${s.id}" type="number" value="${s.price}" min="0"><input class="input" data-s-duration="${s.id}" type="number" value="${s.duration}" min="5"><input class="input" data-s-description="${s.id}" value="${esc(s.description||"")}"></div>`).join("")}<button class="btn btn-dark" id="saveServices">Salvar alterações</button></div></div>`}
+    function financeView(){
+      const completed=Object.values(data.bookings).filter(b=>b.status==="completed"),revenue=completed.reduce((a,b)=>a+Number(b.price),0),counts={};completed.forEach(b=>counts[b.serviceName]=(counts[b.serviceName]||0)+1);const best=Object.entries(counts).sort((a,b)=>b[1]-a[1])[0]?.[0]||"—";
+      return `<div class="metric-grid"><div class="metric"><small>Atendimentos pagos</small><strong>${completed.length}</strong></div><div class="metric"><small>Faturamento</small><strong>${money(revenue)}</strong></div><div class="metric"><small>Ticket médio</small><strong>${money(completed.length?revenue/completed.length:0)}</strong></div><div class="metric"><small>Mais vendido</small><strong style="font-size:1.25rem">${esc(best)}</strong></div></div>${bookingTable(completed,"Histórico financeiro")}`}
+    function configView(){const s=data.settings;return `<div class="panel"><div class="panel-head"><h3>Dados da barbearia</h3></div><div style="padding:18px" class="form-grid"><div class="field"><label>Nome</label><input class="input" id="cfgBrand" value="${esc(s.brand)}"></div><div class="field"><label>WhatsApp com DDI</label><input class="input" id="cfgWhats" value="${esc(s.whatsapp)}" placeholder="5511999999999"></div><div class="field full"><label>Endereço</label><input class="input" id="cfgAddress" value="${esc(s.address)}"></div><div class="field full"><label>Texto do horário</label><input class="input" id="cfgHours" value="${esc(s.hours)}"></div><div class="field"><label>Abertura</label><input class="input" id="cfgOpen" type="time" value="${s.open}"></div><div class="field"><label>Fechamento</label><input class="input" id="cfgClose" type="time" value="${s.close}"></div><div class="field"><label>Intervalos em minutos</label><input class="input" id="cfgInterval" type="number" min="10" step="5" value="${s.interval}"></div><div class="field full"><button class="btn btn-dark" id="saveConfig">Salvar configurações</button></div></div></div><div class="panel"><div class="panel-head"><h3>Conexão de dados</h3></div><div style="padding:18px;color:var(--muted)">${dbApi?"✓ Firebase Realtime Database conectado.":"Modo demonstração local. Preencha o objeto firebaseConfig no início do script para conectar ao Realtime Database."}</div></div>`}
+    function bindAdmin(){
+      $$('[data-action]').forEach(b=>b.onclick=async()=>{const item=data.bookings[b.dataset.id];if(!item)return;if(b.dataset.action==="confirm")item.status="confirmed";if(b.dataset.action==="complete")item.status="completed";if(b.dataset.action==="cancel"&&confirm("Cancelar este horário?"))item.status="cancelled";await persist();toast("Agendamento atualizado")});
+      const block=$("#addBlock");if(block)block.onclick=async()=>{const date=$("#blockDate").value,time=$("#blockTime").value;if(!date||!time)return toast("Informe data e horário");const id=uid();data.blocks[id]={id,date,time};await persist();toast("Horário bloqueado")};
+      const ss=$("#saveServices");if(ss)ss.onclick=async()=>{$$('[data-s-name]').forEach(el=>{const s=data.services[el.dataset.sName];s.name=el.value.trim()||s.name;s.price=Number($(`[data-s-price="${s.id}"]`).value)||0;s.duration=Number($(`[data-s-duration="${s.id}"]`).value)||30;s.description=$(`[data-s-description="${s.id}"]`).value.trim()});await persist();toast("Serviços atualizados")};
+      const sc=$("#saveConfig");if(sc)sc.onclick=async()=>{data.settings={...data.settings,brand:$("#cfgBrand").value.trim(),whatsapp:cleanPhone($("#cfgWhats").value),address:$("#cfgAddress").value.trim(),hours:$("#cfgHours").value.trim(),open:$("#cfgOpen").value,close:$("#cfgClose").value,interval:Number($("#cfgInterval").value)||30};await persist();toast("Configurações salvas")};
+    }
+
+    $$('[data-whatsapp]').forEach(b=>b.onclick=()=>{const n=cleanPhone(data.settings.whatsapp);if(!n)return toast("WhatsApp ainda não configurado no painel");window.open(`https://wa.me/${n}`,"_blank","noopener")});
+    $("#year").textContent=new Date().getFullYear();
+    window.addEventListener("load",()=>setTimeout(()=>$("#splash").classList.add("done"),3000));
+    initStorage();
+  </script>
+</body>
+</html>
